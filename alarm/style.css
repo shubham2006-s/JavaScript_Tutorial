@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Special+Gothic+Condensed+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body, .header .header-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    min-height: 100vh;
+    background-color: black;
+}
+
+.header{
+    width: 440px;
+    background-color: #fff;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 30px 30px 38px;
+}
+
+.header>img{
+    max-width: 103px;
+    margin: 0px 125px;
+}
+
+.header>h1{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 70px;
+    
+}
+
+.header .header-child {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header .header-child.disable {
+    opacity: 0.6;
+    pointer-events: none;
+}
+.header-child .values{
+    border-radius: 5px;
+    padding: 0px 10px;
+    border: 1px solid #999;
+    width: calc(100% / 3 - 5px);
+}
+
+.values>select{
+    border: none;
+    outline: none;
+    height: 53px;
+    width: 100%;
+    font-size: 19px;
+}
+.header .btn{
+    width: 100%;
+    margin-top: 20px;
+    padding: 17px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #4a98f7;
+    color: white;
+    font-size: 20px;
+}
